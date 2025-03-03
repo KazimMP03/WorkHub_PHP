@@ -1,0 +1,2 @@
+# Não envia o arquivo config.php para o GitHub
+src/config/config.php
