@@ -12,7 +12,8 @@ try {
     // Configura o PDO para lançar exceções em caso de erro
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    echo("Conexão realizada com sucesso.");
+    // Foi utilizado para teste da conexão do Banco de Dados
+    // echo("Conexão realizada com sucesso.");
     // Retorna a instância PDO para ser usada em outros arquivos
     return $pdo;
 } catch (PDOException $e) {
